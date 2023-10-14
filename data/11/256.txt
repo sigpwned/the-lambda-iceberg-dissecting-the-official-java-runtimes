@@ -1,0 +1,151 @@
+INIT_START Runtime Version: java:11.v27	Runtime Version ARN: arn:aws:lambda:us-east-2::runtime:975521d0147d553fdd65ed4c9b9a271ecda2183a3572b1e54584c51825434956
+START RequestId: 37121c58-d898-4a93-91fc-ab0a00a65359 Version: $LATEST
+==== MEMORY INFO ====
+MemTotal:         334840 kB
+MemFree:          181084 kB
+MemAvailable:     269788 kB
+Buffers:            3496 kB
+Cached:            93100 kB
+SwapCached:            0 kB
+Active:            14792 kB
+Inactive:         111840 kB
+Active(anon):         68 kB
+Inactive(anon):    32132 kB
+Active(file):      14724 kB
+Inactive(file):    79708 kB
+Unevictable:           4 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:               184 kB
+Writeback:             0 kB
+AnonPages:         30116 kB
+Mapped:            67088 kB
+Shmem:              2136 kB
+KReclaimable:       3544 kB
+Slab:              14196 kB
+SReclaimable:       3544 kB
+SUnreclaim:        10652 kB
+KernelStack:        1536 kB
+PageTables:         1840 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:      167420 kB
+Committed_AS:     219588 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:        3804 kB
+VmallocChunk:          0 kB
+Percpu:              600 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:       23552 kB
+DirectMap2M:      335872 kB
+==== CPU INFO ====
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 63
+model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+stepping	: 2
+microcode	: 0x1
+cpu MHz		: 2500.008
+cache size	: 36608 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs mmio_stale_data
+bogomips	: 5000.01
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 63
+model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+stepping	: 2
+microcode	: 0x1
+cpu MHz		: 2500.008
+cache size	: 36608 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs mmio_stale_data
+bogomips	: 5000.01
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+==== VERSION INFO ====
+Linux version 5.10.186-200.751.amzn2.x86_64 (mockbuild@ip-10-0-61-234) (gcc10-gcc (GCC) 10.4.1 20221124 (Red Hat 10.4.0-1), GNU ld version 2.35.2-9.amzn2.0.1) #1 SMP Wed Aug 23 03:37:53 UTC 2023
+==== DISK INFO ====
+7       0 loop0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7       1 loop1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7       2 loop2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7       3 loop3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7       4 loop4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7       5 loop5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7       6 loop6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7       7 loop7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+254       0 vda 12678 0 200574 1492 0 0 0 0 0 568 1492 0 0 0 0 0 0
+254      16 vdb 207 0 2562 27 466 0 5616 56 0 296 83 0 0 0 0 0 0
+254      32 vdc 43 0 246 1 0 0 0 0 0 28 1 0 0 0 0 0 0
+254      48 vdd 95 0 2162 8 1 0 8 0 0 16 8 0 0 0 0 0 0
+254      64 vde 1408 0 106874 111 0 0 0 0 0 396 111 0 0 0 0 0 0
+==== COMMAND LINE ====
+/var/lang/bin/java -XX:MaxHeapSize=222823k -XX:MaxMetaspaceSize=26214k -XX:ReservedCodeCacheSize=13107k -XX:+UseSerialGC -javaagent:/var/runtime/amzn-log4j-security-jdk11-0.1alpha.jar -Xshare:on -XX:SharedArchiveFile=/var/lang/lib/server/runtime.jsa -XX:-TieredCompilation -Djava.net.preferIPv4Stack=true -XX:+ErrorFileToStderr -Dorg.crac.Core.Compat=org.crac.inmemory -classpath /var/runtime/lib/aws-lambda-java-core-1.2.3.jar:/var/runtime/lib/aws-lambda-java-runtime-0.2.0.jar:/var/runtime/lib/aws-lambda-java-serialization-0.2.0.jar:/var/runtime/lib/org-crac-inmemory-0.1.0.jar lambdainternal.AWSLambda 
+==== ENVIRONMENT ====
+LD_LIBRARY_PATH=/var/lang/lib:/lib64:/usr/lib64:/var/runtime:/var/runtime/lib:/var/task:/var/task/lib:/opt/lib
+AWS_ACCESS_KEY_ID=ASIAXXXXXXXXXXXXXXXX
+AWS_LAMBDA_FUNCTION_VERSION=$LATEST
+AWS_DEFAULT_REGION=us-east-2
+AWS_XRAY_CONTEXT_MISSING=LOG_ERROR
+LAMBDA_TASK_ROOT=/var/task
+LANG=en_US.UTF-8
+PATH=/var/lang/bin:/usr/local/bin:/usr/bin/:/bin:/opt/bin
+AWS_LAMBDA_FUNCTION_MEMORY_SIZE=256
+AWS_EXECUTION_ENV=AWS_Lambda_java11
+_AWS_XRAY_DAEMON_ADDRESS=169.254.79.129
+AWS_LAMBDA_INITIALIZATION_TYPE=on-demand
+TZ=:UTC
+AWS_REGION=us-east-2
+AWS_SECRET_ACCESS_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+AWS_LAMBDA_LOG_GROUP_NAME=/aws/lambda/lambdainternals
+AWS_LAMBDA_LOG_STREAM_NAME=2023/10/14/[$LATEST]16d30319cf8f4cb3822efedc47816824
+AWS_LAMBDA_FUNCTION_NAME=lambdainternals
+AWS_LAMBDA_RUNTIME_API=127.0.0.1:9001
+_HANDLER=com.sigpwned.lambdainternals.App::handleRequest
+_AWS_XRAY_DAEMON_PORT=2000
+LAMBDA_RUNTIME_DIR=/var/runtime
+AWS_XRAY_DAEMON_ADDRESS=169.254.79.129:2000
+AWS_SESSION_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+_LAMBDA_TELEMETRY_LOG_FD=3
+END RequestId: 37121c58-d898-4a93-91fc-ab0a00a65359
+REPORT RequestId: 37121c58-d898-4a93-91fc-ab0a00a65359	Duration: 117.13 ms	Billed Duration: 118 ms	Memory Size: 256 MB	Max Memory Used: 79 MB	Init Duration: 495.64 ms	

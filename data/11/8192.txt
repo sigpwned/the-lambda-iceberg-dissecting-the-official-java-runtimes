@@ -1,0 +1,224 @@
+INIT_START Runtime Version: java:11.v27	Runtime Version ARN: arn:aws:lambda:us-east-2::runtime:975521d0147d553fdd65ed4c9b9a271ecda2183a3572b1e54584c51825434956
+START RequestId: 51ce75e1-6adc-42b8-8bfc-8199781185f6 Version: $LATEST
+==== MEMORY INFO ====
+MemTotal:        9482800 kB
+MemFree:         9287208 kB
+MemAvailable:    9196936 kB
+Buffers:            6864 kB
+Cached:            90488 kB
+SwapCached:            0 kB
+Active:            54408 kB
+Inactive:          79084 kB
+Active(anon):      36328 kB
+Inactive(anon):      152 kB
+Active(file):      18080 kB
+Inactive(file):    78932 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:               100 kB
+Writeback:             0 kB
+AnonPages:         36240 kB
+Mapped:            66216 kB
+Shmem:               152 kB
+Slab:              17424 kB
+SReclaimable:       4732 kB
+SUnreclaim:        12692 kB
+KernelStack:        1856 kB
+PageTables:         1776 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     4741400 kB
+Committed_AS:     361420 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:       20480 kB
+DirectMap2M:     9699328 kB
+==== CPU INFO ====
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 63
+model name	: Intel(R) Xeon(R) Processor @ 3.00GHz
+stepping	: 2
+microcode	: 0x1
+cpu MHz		: 3000.014
+cache size	: 36608 KB
+physical id	: 0
+siblings	: 5
+core id		: 0
+cpu cores	: 5
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs mmio_stale_data eibrs_pbrsb
+bogomips	: 6000.02
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 63
+model name	: Intel(R) Xeon(R) Processor @ 3.00GHz
+stepping	: 2
+microcode	: 0x1
+cpu MHz		: 3000.014
+cache size	: 36608 KB
+physical id	: 0
+siblings	: 5
+core id		: 1
+cpu cores	: 5
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs mmio_stale_data eibrs_pbrsb
+bogomips	: 6000.02
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 63
+model name	: Intel(R) Xeon(R) Processor @ 3.00GHz
+stepping	: 2
+microcode	: 0x1
+cpu MHz		: 3000.014
+cache size	: 36608 KB
+physical id	: 0
+siblings	: 5
+core id		: 2
+cpu cores	: 5
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs mmio_stale_data eibrs_pbrsb
+bogomips	: 6000.02
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 63
+model name	: Intel(R) Xeon(R) Processor @ 3.00GHz
+stepping	: 2
+microcode	: 0x1
+cpu MHz		: 3000.014
+cache size	: 36608 KB
+physical id	: 0
+siblings	: 5
+core id		: 3
+cpu cores	: 5
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs mmio_stale_data eibrs_pbrsb
+bogomips	: 6000.02
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 63
+model name	: Intel(R) Xeon(R) Processor @ 3.00GHz
+stepping	: 2
+microcode	: 0x1
+cpu MHz		: 3000.014
+cache size	: 36608 KB
+physical id	: 0
+siblings	: 5
+core id		: 4
+cpu cores	: 5
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs mmio_stale_data eibrs_pbrsb
+bogomips	: 6000.02
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+==== VERSION INFO ====
+Linux version 4.14.255-318-256.530.amzn2.x86_64 (mockbuild@ip-10-0-53-122) (gcc version 7.3.1 20180712 (Red Hat 7.3.1-15) (GCC)) #1 SMP Wed Jul 12 00:26:53 UTC 2023
+==== DISK INFO ====
+7       0 loop0 0 0 0 0 0 0 0 0 0 0 0
+7       1 loop1 0 0 0 0 0 0 0 0 0 0 0
+7       2 loop2 0 0 0 0 0 0 0 0 0 0 0
+7       3 loop3 0 0 0 0 0 0 0 0 0 0 0
+7       4 loop4 0 0 0 0 0 0 0 0 0 0 0
+7       5 loop5 0 0 0 0 0 0 0 0 0 0 0
+7       6 loop6 0 0 0 0 0 0 0 0 0 0 0
+7       7 loop7 0 0 0 0 0 0 0 0 0 0 0
+254       0 vda 14845 0 197998 660 0 0 0 0 0 56 568
+254      16 vdb 132 0 2530 4 6382 0 58032 8 0 0 0
+254      32 vdc 31 0 218 0 0 0 0 0 0 0 0
+254      48 vdd 138 0 2130 0 1 0 8 0 0 0 0
+254      64 vde 2920 0 105970 200 0 0 0 0 0 24 132
+==== COMMAND LINE ====
+/var/lang/bin/java -XX:MaxHeapSize=8142848k -XX:MaxMetaspaceSize=163840k -XX:ReservedCodeCacheSize=81920k -XX:+UseSerialGC -javaagent:/var/runtime/amzn-log4j-security-jdk11-0.1alpha.jar -Xshare:on -XX:SharedArchiveFile=/var/lang/lib/server/runtime.jsa -XX:-TieredCompilation -Djava.net.preferIPv4Stack=true -XX:+ErrorFileToStderr -Dorg.crac.Core.Compat=org.crac.inmemory -classpath /var/runtime/lib/aws-lambda-java-core-1.2.3.jar:/var/runtime/lib/aws-lambda-java-runtime-0.2.0.jar:/var/runtime/lib/aws-lambda-java-serialization-0.2.0.jar:/var/runtime/lib/org-crac-inmemory-0.1.0.jar lambdainternal.AWSLambda 
+==== ENVIRONMENT ====
+LD_LIBRARY_PATH=/var/lang/lib:/lib64:/usr/lib64:/var/runtime:/var/runtime/lib:/var/task:/var/task/lib:/opt/lib
+AWS_LAMBDA_FUNCTION_NAME=lambdainternals
+AWS_LAMBDA_FUNCTION_MEMORY_SIZE=8192
+AWS_DEFAULT_REGION=us-east-2
+AWS_REGION=us-east-2
+AWS_LAMBDA_FUNCTION_VERSION=$LATEST
+LAMBDA_TASK_ROOT=/var/task
+LANG=en_US.UTF-8
+AWS_XRAY_DAEMON_ADDRESS=169.254.79.129:2000
+AWS_SECRET_ACCESS_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+AWS_SESSION_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+AWS_LAMBDA_LOG_STREAM_NAME=2023/10/14/[$LATEST]9cf8c50c98eb42619146adfe5d1495ae
+LAMBDA_RUNTIME_DIR=/var/runtime
+AWS_LAMBDA_RUNTIME_API=127.0.0.1:9001
+TZ=:UTC
+AWS_EXECUTION_ENV=AWS_Lambda_java11
+AWS_LAMBDA_INITIALIZATION_TYPE=on-demand
+AWS_ACCESS_KEY_ID=ASIAXXXXXXXXXXXXXXXX
+AWS_XRAY_CONTEXT_MISSING=LOG_ERROR
+_AWS_XRAY_DAEMON_PORT=2000
+_HANDLER=com.sigpwned.lambdainternals.App::handleRequest
+AWS_LAMBDA_LOG_GROUP_NAME=/aws/lambda/lambdainternals
+PATH=/var/lang/bin:/usr/local/bin:/usr/bin/:/bin:/opt/bin
+_AWS_XRAY_DAEMON_ADDRESS=169.254.79.129
+_LAMBDA_TELEMETRY_LOG_FD=3
+END RequestId: 51ce75e1-6adc-42b8-8bfc-8199781185f6
+REPORT RequestId: 51ce75e1-6adc-42b8-8bfc-8199781185f6	Duration: 19.32 ms	Billed Duration: 20 ms	Memory Size: 8192 MB	Max Memory Used: 86 MB	Init Duration: 327.79 ms	
